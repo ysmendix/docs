@@ -1,6 +1,6 @@
 // Note: This is work-in-progress and not ready to be used
 
-const url = require('url');
+const url = require('url'); //note url.parse() is deprecated
 const path = require('path');
 const fs = require('fs');
 const shell = require('shelljs');
