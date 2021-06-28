@@ -7,7 +7,7 @@ tags: ["GitHub"]
 
 ## 1 Introduction
 
-PURPLE We like to work with our community, and we encourage you to create and contribute using pull requests!
+REDDER We like to work with our community, and we encourage you to create and contribute using pull requests!
 
 **This how-to will teach you how to do the following:**
 
