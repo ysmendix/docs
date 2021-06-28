@@ -7,6 +7,8 @@ tags: ["GitHub"]
 
 ## 1 Introduction
 
+![frowny-face](attachments/contribute-github/the-future-of-dutch-football.png)
+
 RED We like to work with our community, and we encourage you to create and contribute using pull requests!
 
 **This how-to will teach you how to do the following:**
