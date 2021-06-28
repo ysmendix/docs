@@ -27,6 +27,18 @@ To create a cluster in your OpenShift context, you need the following:
 * **Kubectl** installed if you are deploying to another Kubernetes platform (see [Install and Set Up kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/) on the Kubernetes webside for more information)
 * A command line terminal that supports the console API and mouse interactions. In Windows, this could be PowerShell or the Windows Command Prompt. See [Terminal limitations](#terminal-limitations), below, for a more detailed explanation.
 
+### 2.1 Connected Environments{#prerequisites-connected}
+
+Should you consider using a connected environment, the following URLs should be *whitelisted* in your cluster's operating system, as these URLs point to services or resources required by the *Connected Environments'* infrastructure.
+
+| URL | Description |
+|-----|-------------|
+| https://interactor-bridge.private-cloud.api.mendix.com | Websocket based main communication API |
+| https://privatecloud.mendixcloud.com | Registry for downloading MDA artifacts |
+| https://private-cloud.registry.mendix.com | Docker registry for downloading Runtime base images |
+| https://cdn.mendix.com | Registry for downloading placeholder MDA artifacts |
+| https://subscription-api.mendix.com | Service to verify call-home licence |
+
 ## 3 Creating a Cluster & Namespace
 
 ### 3.1 Creating a Cluster
@@ -88,6 +100,8 @@ To add a namespace, do the following:
 4. Click **Done** to create the namespace.
 
 ![](attachments/private-cloud-cluster/add-namespace.png)
+
+{{% alert type="warning" %}} If you have selected a *Connected Installation Type* please verify that the [Connected Environment Pre-requisites](#prerequisites-connected) are configured. {{% /alert %}}
 
 ## 4. Installing and Configuring the Mendix Operator
 
@@ -195,6 +209,14 @@ If the Mendix Operator and the Mendix Gateway Agent have not been installed in y
 6. Click **Exit Installer** to finish.
 
 The Mendix operator and Mendix Gateway Agent are now installed on your platform.
+
+{{% alert type="info" %}}
+If you have selected the **Connected Mode** which installs the **Mendix Gateway Agent** component, please take note of the following:
+
+* All the Websocket connections (to communicate with the Mendix Platform) are initiated by the Mendix Gateway Agent from the cluster, and said connections do not require any listening ports to be opened in the cluster's firewall.
+
+* All the Websocket connections are established over HTTPS, and therefore, can be routed through a Proxy server.
+{{% /alert %}}
 
 #### 4.3.2 Configure Namespace{#configure-namespace}
 
