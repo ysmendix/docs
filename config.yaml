@@ -24,7 +24,9 @@ canonifyurls: false
 relativeURLs: false
 # URLS in the format .../filename rather than .../filename/(index)
 uglyURLs: true
+# Each page will have a .GitInfo object, this allows setting of, for example, the date the doc was last modified. Can slow things down.
 enableGitInfo: true
+# Generate a robots.txt file 
 enableRobotsTXT: true
 
 # Advanced
