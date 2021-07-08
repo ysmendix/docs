@@ -5,10 +5,12 @@ title: "Mendix Documentation"
 params:
   repository: "https://github.com/mendix/docs"
   repository_branch: "development"
+  # How are these picked up within HUGO?
   algolia:
     application_id:    'OHBX5T982M'
     index_name:        'docs'
     read_only_api_key: 'd23e5ac47b71a0f51afa5fedc695b718'
+  # Do we stlll use intercom anywhere?
   intercom:
     test_id: 'nw1x91z3'
     live_id: 'xbpgtd40'
@@ -16,8 +18,11 @@ params:
   site_description: "You can browse all the documentation for the Mendix platform here."
   theme: "mendix"
 
+# Do not convert URLs into absolute URLs
 canonifyurls: false
+# Do not turn all URLs into URLs relative to the current folder (i.e. /refguide does NOT become ../../refguide)
 relativeURLs: false
+# URLS in the format .../filename rather than .../filename/(index)
 uglyURLs: true
 enableGitInfo: true
 enableRobotsTXT: true
@@ -27,6 +32,7 @@ enableRobotsTXT: true
 # noTimes: true
 # stepAnalysis: true
 
+# Why did we choose _site rather than the default public?
 publishDir: "_site"
 theme: "mendix"
 metaDataFormat: "yaml"
