@@ -8,8 +8,6 @@ tags: [community"]
 
 ## 1 Introduction
 
-
-
 |Dos|Remark|Don'ts|Remark |
 |--|--|--|--|
 |Know how to use the Mendix Forum, for example filters, categories, and tags|||Link to the Mendix Forum topic and maybe a section about how to find, follow, and manage content that interests you easily (needs some advanced Forum user to write this part)|
