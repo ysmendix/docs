@@ -8,36 +8,49 @@ tags: [community"]
 
 ## 1 Introduction
 
-|Dos|Remark|Don'ts|Remark |
-|--|--|--|--|
-|Know how to use the Mendix Forum, for example filters, categories, and tags|||Link to the Mendix Forum topic and maybe a section about how to find, follow, and manage content that interests you easily (needs some advanced Forum user to write this part)|
-|Not be ashamed of being a beginner and not be afraid of asking simple questions ||Dare not to ask simple questions and admit that you have not gotten the expertise||
-|Search before ask a question||Ask a question directly||
-|Have well elaborated requests, take time with zooming in the problem, well documented questions||Questions not thought through or well structured to be understood by others|Link to a section about how to ask a good question|
-|Use clear, simple words||Use jargons||
-|Be respectful, encouraging, friendly, thankful||Be disrespectful, discouraging, rude, ungrateful|Link to a section about the tone and how to behave/interact in the MxCH|
-|Be a contributor||Only be a taker||
-|Contribute wherever you can||Feel not good enough to contribute (Imposter Syndrome)||
+Here are some tips that can help you best use the Mendix Forum.
 
+* If needed, learn the basics about how to use the [Mendix Forum](mendix-forum), for example how to search for information, how to ask a question, how to answer a question, how to use filters, categories, and tags
+* Do not be afraid to ask a beginner's question
+* [Ask a good question](#ask-a-good-question)
+* Avoid using jargons
+* Follow interesting content – just click **Subscribe To Email Notifications** on the right side of a thread that interests you.
+* [Be respectful, friendly, and helpful](#behave-on-mendix-forum)
+* [Be a contributor](#contribute-to-mendix-forum), whenever you can
 
+## 2 Asking a Good Question {#ask-a-good-question}
 
+If you ask a good question, the chance that it gets answered would be much bigger. Here are some tips for you:
 
-## 2 Asking a Good Question
+* Search on Mendix Forum before you ask a question
+  Before you ask your question directly, do a [search](mendix-forum#searching) to see whether it was already asked on the Mendix Forum. If it was asked, then you already get an answer.
 
-First of all, feel free to ask any questions – no matter how simple or difficult your question is. A beginner's question is just as important as an expert's question. Asking a question will not only help you find out the answer, but also help other people who wonder about the same. However, some questions get answered more quickly than others. The reaon might be that these questions are easy, but there is also something that you can do to help the community understand your question better and faster so that you can get an answer more quicky!
+* Give your question a good title
+  Make the title descriptive and interesting. Make sure you include important keywords that can help others identify and understand your question. 
 
-You can ask any questions related to the Mendix Platform – no matter whether it is a complicated one or a simple one.
+* Describe in detail
+  Give all useful details that can help people answer your question. Consider the following:
+  * What you want to achieve?
+  * What happened?
+  * How did it happen?
+  * Did you try to solve it and if so, what did you do?
+  * Are there any [error messages]() or [application logs](/developerportal/operate/logs)?
+  * Did you read any documentation? Did it work? 
+  
+* Add screenshots
+  If possible, use screenshots in your question, because they show people what is exactly happening on your screen.
 
-Before you ask your question directly, do a [search](mendix-forum#searching) to see whether it was already asked the Mendix Forum. This can be the fastest way for you to find an answer. If you find a solution that looks promising, try out whether it works for you. If it does, click the upvote arrow to help this solution stand out or click the star to favourite the idea. You can also reply to the thread and describe how the solution works for you with more details. If you have not found a solution, do not get frustrated. It is possible that you are the first person who has gotten this question. Ask this new questions. In this way, you can help all people who get this question in the future.
+* Include all relevant tags
+  Add tags to your question. They can help people with interest in these areas see your questions faster.
 
-To ask a question, click **Ask a question**. Write a good **Title** that summerizes the core of your question. Make sure you include important keywords that can help others identify and solve your problem. Here are some examples:
+* Do a final check before posting
+Do a final check before you post your question. Pretend you are reading  it for the first time. Does it make sense? Did you include all important information? Is there a typo?
 
-| Good Title | Bad Title |
-| ---------- | --------- |
-||Help needed!|
+## 3  Behaving on Mendix Forum {#behave-on-mendix-forum}
 
-In the **Description** text box, describe your question in details. Please give enough context, for example, when and how a problem occurred, what happened, what you already tried and so on. The context helps everybody else understand your question. Add a screenshot, because It shows people what is exactly happening on your screen. Also, tell people your **Mendix Studio Version**. Choose a **Categories** and add ***Tag(s)** for your question. They can help people with interest in this area see your questions more easily. After you fill all the information, do a quick check of whether you forgot to add any important information. When you are ready, click **Ask your question**.
+Always be respectful, friendly, and helpful on the Mendix Forum. When you interact with other people, use inclusive, encouraging, empathetic, and supportive language. Condescending, discriminative, aggressive, and discouraging words are not welcomed here.
 
-When someone gives you an answer that works for you, you can accept their answer, and their answer will get a green check mark! Say something to let them know that their help is appreciated.
+## 4 Contributing to the Mendix Forum {#contribute-to-mendix-forum}
 
-## 3 Behaving and Interacting with Other Community Members
+Being in a community is all about taking and giving. The Mendix Forum would appreciate it if you could take your time to answer a question, join a discussion, share an idea, or just use one sec to click an upvote button. It does not only help keep the Mendix Forum alive, but also helps you gradually develop into a problem solver, a creative thinker, an expert who people always trust when they have problems. Never underestimate your ability to help others – even if you are just a beginner!
+
